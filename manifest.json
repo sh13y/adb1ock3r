@@ -18,7 +18,7 @@
     "rule_resources": [
       {
         "id": "default-rules",
-        "enabled": true,
+        "enabled": false,
         "path": "rules/rules.json"
       }
     ]

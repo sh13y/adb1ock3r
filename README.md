@@ -10,14 +10,14 @@ A fast, lightweight **Manifest V3** ad and tracker blocker for Chromium-based br
 - 🛡️ **Blocks common ad/tracker domains** via bundled ruleset (`rules/rules.json`)
 - 🎛️ **Simple on/off toggle** in the extension popup
 - 💾 **Local preference storage** using `chrome.storage.local`
-- 🔒 **No backend required** — runs directly in the browser
+- 🔒 **No backend required** - runs directly in the browser
 
 ## Project Structure
 
-- `manifest.json` — Chrome extension manifest (MV3)
-- `background.js` — service worker that manages blocker state/ruleset enablement
-- `rules/rules.json` — static DNR blocking rules
-- `popup/` — popup UI (`popup.html`, `popup.css`, `popup.js`)
+- `manifest.json` - Chrome extension manifest (MV3)
+- `background.js` - service worker that manages blocker state/ruleset enablement
+- `rules/rules.json` - static DNR blocking rules
+- `popup/` - popup UI (`popup.html`, `popup.css`, `popup.js`)
 - `PRIVACY_POLICY.md` — Chrome Web Store privacy policy
 - `LICENSE` — MIT license
 
@@ -61,7 +61,7 @@ This repository includes standard publication docs:
 
 - ✅ `README.md`
 - ✅ `PRIVACY_POLICY.md`
-- ✅ `LICENSE` (MIT)
+- ✅ `LICENSE` - MIT
 
 ## License
 

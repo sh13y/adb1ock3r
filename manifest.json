@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "adb1ock3r",
+  "version": "1.0.0",
+  "description": "Fast ad and tracker blocker powered by Declarative Net Request.",
+  "permissions": [
+    "declarativeNetRequest",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "default-rules",
+        "enabled": true,
+        "path": "rules/rules.json"
+      }
+    ]
+  },
+  "action": {
+    "default_title": "adb1ock3r",
+    "default_popup": "popup/popup.html"
+  }
+}

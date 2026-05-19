@@ -27,8 +27,7 @@ A fast, lightweight **Manifest V3** ad and tracker blocker for Chromium-based br
 2. Open Chrome and go to `chrome://extensions`.
 3. Enable **Developer mode** (top-right).
 4. Click **Load unpacked**.
-5. Select the project folder:
-   - `/home/runner/work/adb1ock3r/adb1ock3r`
+5. Select the project folder (the directory where you cloned/downloaded this repository).
 6. The extension (`adb1ock3r`) should now appear in your extensions list.
 7. Pin it to the toolbar (optional) and use the popup toggle to enable/disable blocking.
 
